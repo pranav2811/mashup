@@ -1,6 +1,6 @@
-flask==3.0.2
-gunicorn==21.2.0
-moviepy==1.0.3
-pytube==15.0.0
-youtube-search==1.6.6
-flask-mail == 0.9.1
+flask
+gunicorn
+moviepy
+pytube
+youtube-search
+flask_mail
