@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Merge Web App</title>
+    <style>
+        /* Add CSS styling for the progress bar */
+        #progress-bar {
+            width: 100%;
+            background-color: #ddd;
+        }
+        #progress-bar-fill {
+            height: 30px;
+            background-color: #4caf50;
+            width: 0%;
+            transition: width 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <h1>Audio Merge Web App</h1>
+    <form action="/" method="POST" onsubmit="submitForm()">
+        <label for="singer_name">Singer Name:</label>
+        <input type="text" id="singer_name" name="singer_name" required><br><br>
+        
+        <label for="num_videos">Number of Videos:</label>
+        <input type="number" id="num_videos" name="num_videos" required><br><br>
+        
+        <label for="duration_per_video">Duration per Video (in seconds):</label>
+        <input type="number" id="duration_per_video" name="duration_per_video" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <input type="submit" id="submit-btn" value="Submit">
+    </form>
+</body>
+</html>
