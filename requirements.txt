@@ -1,5 +1,5 @@
 flask==2.2.2
-gunicorn==20.1.0
+gunicorn==21.2.0
 moviepy==1.0.3
-pytube==11.0.1
-youtube-search-python==1.4.1
+pytube==15.0.0
+youtube-search-python==1.6.6
